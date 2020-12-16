@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeMenu_Repository", "CafeMenu_Repository\CafeMenu_Repository.csproj", "{F013F61B-C4BA-4057-A46D-74C92C679468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeMenu_Console", "CafeMenu_Console\CafeMenu_Console.csproj", "{F7CA7A98-86ED-4454-9484-0BDE16E2CC91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F013F61B-C4BA-4057-A46D-74C92C679468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F013F61B-C4BA-4057-A46D-74C92C679468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F013F61B-C4BA-4057-A46D-74C92C679468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F013F61B-C4BA-4057-A46D-74C92C679468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CA7A98-86ED-4454-9484-0BDE16E2CC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CA7A98-86ED-4454-9484-0BDE16E2CC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CA7A98-86ED-4454-9484-0BDE16E2CC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CA7A98-86ED-4454-9484-0BDE16E2CC91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0935D31B-D59C-4DAE-AE0B-1654D922B92D}
+	EndGlobalSection
+EndGlobal
