@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ClaimsDepartment_Repository
 {
 
-    public class ClaimItem
+    public class ClaimItems
     {
         public enum TypeOfClaim
         {
@@ -19,12 +19,12 @@ namespace ClaimsDepartment_Repository
         public TypeOfClaim ClaimType { get; set; }
         public string Description { get; set; }
         public double ClaimAmount { get; set; }
-        public string DateOfIncident { get; set; }
-        public string DateOfClaim { get; set; } 
+        public DateTime DateOfIncident { get; set; }
+        public DateTime DateOfClaim { get; set; } 
         public bool IsValid { get; set; }
 
-        ClaimItem() { }
-        ClaimItem(int claimID, TypeOfClaim claimType, string description, double claimAmount, string dateOfIncident, string dateOfClaim, bool isValid)
+        ClaimItems() { }
+        ClaimItems(int claimID, TypeOfClaim claimType, string description, double claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
         {
             ClaimID = claimID;
             ClaimType = claimType;
