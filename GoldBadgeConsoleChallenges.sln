@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeMenu_Repository", "Cafe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeMenu_Console", "CafeMenu_Console\CafeMenu_Console.csproj", "{F7CA7A98-86ED-4454-9484-0BDE16E2CC91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeMenu_Tests", "CafeMenu_Tests\CafeMenu_Tests.csproj", "{A0CD5750-F618-4175-805F-C8F62CDD3BC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F7CA7A98-86ED-4454-9484-0BDE16E2CC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7CA7A98-86ED-4454-9484-0BDE16E2CC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7CA7A98-86ED-4454-9484-0BDE16E2CC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CD5750-F618-4175-805F-C8F62CDD3BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CD5750-F618-4175-805F-C8F62CDD3BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CD5750-F618-4175-805F-C8F62CDD3BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CD5750-F618-4175-805F-C8F62CDD3BC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
