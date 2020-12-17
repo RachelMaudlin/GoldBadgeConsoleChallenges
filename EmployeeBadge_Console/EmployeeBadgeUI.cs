@@ -8,5 +8,7 @@ namespace EmployeeBadge_Console
 {
     class EmployeeBadgeUI
     {
+
+
     }
 }

@@ -10,14 +10,13 @@ namespace EmployeeBadge_Repository
     public class EmployeeBadge
     {
         public int BadgeID { get; set; }
-        public string DoorName { get; set; }
+        public string DoorID { get; set; }
 
         public EmployeeBadge() { }
-        public EmployeeBadge(int badgeID, string doorName)
+        public EmployeeBadge(int badgeID, string doorID)
         {
             BadgeID = badgeID;
-            DoorName = doorName;
+            DoorID = doorID;
         }
-
     }
 }
