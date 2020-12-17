@@ -97,6 +97,12 @@ namespace EmployeeBadge_Console
             EmployeeBadge itemThree = new EmployeeBadge(32345, "A4, A5");
             EmployeeBadge itemFour = new EmployeeBadge(45132, "A2, A3, B4");
             EmployeeBadge itemFive = new EmployeeBadge(25134, "A6, B3");
+            _employeeBadgeRepo.AddNewBadge(itemOne.BadgeID, itemOne);
+            _employeeBadgeRepo.AddNewBadge(itemTwo.BadgeID, itemTwo);
+            _employeeBadgeRepo.AddNewBadge(itemThree.BadgeID, itemThree);
+            _employeeBadgeRepo.AddNewBadge(itemFour.BadgeID, itemFour);
+            _employeeBadgeRepo.AddNewBadge(itemFive.BadgeID, itemFive);
+           
         }
     }
 }
