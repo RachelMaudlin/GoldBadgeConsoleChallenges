@@ -10,6 +10,8 @@ namespace EmployeeBadge_Console
     {
         static void Main(string[] args)
         {
+            EmployeeBadgeUI program = new EmployeeBadgeUI();
+            program.Run();
         }
     }
 }
