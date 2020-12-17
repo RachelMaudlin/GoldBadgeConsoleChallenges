@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ClaimsDepartment_Repository
 {
-
-    public class ClaimItems
-    {
         public enum TypeOfClaim
         {
            Car = 1,
            Home = 2,
            Theft = 3
         }
+
+    public class ClaimItems
+    {
         public int ClaimID { get; set; }
         public TypeOfClaim ClaimType { get; set; }
         public string Description { get; set; }
@@ -23,8 +23,8 @@ namespace ClaimsDepartment_Repository
         public DateTime DateOfClaim { get; set; } 
         public bool IsValid { get; set; }
 
-        ClaimItems() { }
-        ClaimItems(int claimID, TypeOfClaim claimType, string description, double claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
+        public ClaimItems() { }
+        public ClaimItems(int claimID, TypeOfClaim claimType, string description, double claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
         {
             ClaimID = claimID;
             ClaimType = claimType;

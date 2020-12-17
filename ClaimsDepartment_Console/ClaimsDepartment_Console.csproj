@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClaimsDepartment_Repository\ClaimsDepartment_Repository.csproj">
+      <Project>{0bdb1a5e-75c1-4c2a-a2f0-1e8edfbef4e4}</Project>
+      <Name>ClaimsDepartment_Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

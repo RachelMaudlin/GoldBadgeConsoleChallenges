@@ -10,6 +10,8 @@ namespace ClaimsDepartment_Console
     {
         static void Main(string[] args)
         {
+            ClaimsDepartmentUI program = new ClaimsDepartmentUI();
+            program.run();
         }
     }
 }

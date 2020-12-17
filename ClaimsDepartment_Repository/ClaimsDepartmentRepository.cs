@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClaimsDepartment_Repository
 {
-    class ClaimsDepartmentRepository
+    public class ClaimsDepartmentRepository
     {
        public Queue<ClaimItems> _ClaimsQueue = new Queue<ClaimItems>();
 
