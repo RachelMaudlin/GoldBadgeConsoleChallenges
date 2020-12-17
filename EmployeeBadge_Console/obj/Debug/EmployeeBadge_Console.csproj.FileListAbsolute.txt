@@ -1,0 +1,10 @@
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\EmployeeBadge_Console\obj\Debug\EmployeeBadge_Console.csprojAssemblyReference.cache
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\EmployeeBadge_Console\obj\Debug\EmployeeBadge_Console.csproj.CoreCompileInputs.cache
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\EmployeeBadge_Console\bin\Debug\EmployeeBadge_Console.exe.config
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\EmployeeBadge_Console\bin\Debug\EmployeeBadge_Console.exe
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\EmployeeBadge_Console\bin\Debug\EmployeeBadge_Console.pdb
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\EmployeeBadge_Console\bin\Debug\EmployeeBadge_Repository.dll
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\EmployeeBadge_Console\bin\Debug\EmployeeBadge_Repository.pdb
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\EmployeeBadge_Console\obj\Debug\EmployeeBadge_Console.csproj.CopyComplete
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\EmployeeBadge_Console\obj\Debug\EmployeeBadge_Console.exe
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\EmployeeBadge_Console\obj\Debug\EmployeeBadge_Console.pdb

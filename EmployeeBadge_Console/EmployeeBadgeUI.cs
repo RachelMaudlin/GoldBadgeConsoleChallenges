@@ -12,7 +12,7 @@ namespace EmployeeBadge_Console
         private EmployeeBadgeRepository _employeeBadgeRepo = new EmployeeBadgeRepository();
         public void Run()
         {
-
+            MainMenu();
         }
 
         //Menu
@@ -78,5 +78,25 @@ namespace EmployeeBadge_Console
         //EDIT METHOD(S)
 
         //READ ALL METHOD
+        private void ListAllBadges()
+        {
+            Console.Clear();
+            Dictionary<int, EmployeeBadge> badgeDictionary = _employeeBadgeRepo.GetEmployeeDictionary();
+            foreach(KeyValuePair<int, EmployeeBadge> badge in badgeDictionary)
+            {
+                Console.WriteLine($"Badge ID: {badge.Value.BadgeID}\n" +
+                    $"2. Door Access: {badge.Value.DoorID}\n");
+            }
+        }
+
+        //LOCAL DATABASE
+        private void LocalDataBase()
+        {
+            EmployeeBadge itemOne = new EmployeeBadge(12345, "A7");
+            EmployeeBadge itemTwo = new EmployeeBadge(22345, "A1, A4, B1, B2");
+            EmployeeBadge itemThree = new EmployeeBadge(32345, "A4, A5");
+            EmployeeBadge itemFour = new EmployeeBadge(45132, "A2, A3, B4");
+            EmployeeBadge itemFive = new EmployeeBadge(25134, "A6, B3");
+        }
     }
 }
