@@ -10,7 +10,7 @@ namespace ClaimsDepartment_Console
     public class ClaimsDepartmentUI
     {
         private ClaimsDepartmentRepository _claimsDepartmentRepository = new ClaimsDepartmentRepository();
-        public Queue<ClaimItems> _claimsQueue = new Queue<ClaimItems>();
+        
 
         public void Run()
         {
@@ -96,7 +96,7 @@ namespace ClaimsDepartment_Console
             string processClaimInput = Console.ReadLine();
             if (processClaimInput == "y")
             {
-                _claimsQueue.Dequeue();
+                _claimsDepartmentRepository._ClaimsQueue.Dequeue();
                 Console.Clear();
                 ProcessNextClaim();
             }
