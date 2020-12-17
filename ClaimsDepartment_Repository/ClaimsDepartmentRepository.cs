@@ -16,9 +16,9 @@ namespace ClaimsDepartment_Repository
             return _ClaimsQueue;
         }
         //TAKING CARE OF CLAIM 
-        public void TakeCareOfClaim()
+        public ClaimItems TakeCareOfClaim()
         {
-            _ClaimsQueue.First();
+           return _ClaimsQueue.Peek();
         }
         //CREATE CLAIM
         public void AddClaimToQueue(ClaimItems claim)

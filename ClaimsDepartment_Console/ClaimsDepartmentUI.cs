@@ -10,8 +10,11 @@ namespace ClaimsDepartment_Console
     public class ClaimsDepartmentUI
     {
         private ClaimsDepartmentRepository _claimsDepartmentRepository = new ClaimsDepartmentRepository();
-        public void run()
+        public Queue<ClaimItems> _claimsQueue = new Queue<ClaimItems>();
+
+        public void Run()
         {
+            LocalData();
             Menu();
         }
         private void Menu()
@@ -32,9 +35,11 @@ namespace ClaimsDepartment_Console
                 {
                     case "1":
                         //View all claims
+                        ViewAllClaims();
                         break;
                     case "2":
                         //Process next claim
+                        ProcessNextClaim();
                         break;
                     case "3":
                         //Enter new claim
@@ -56,16 +61,58 @@ namespace ClaimsDepartment_Console
 
         private void ViewAllClaims()
         {
-            
+            Console.Clear();
+            Queue<ClaimItems> claimsQueue = _claimsDepartmentRepository.ReadClaimsQueue();
+            foreach(ClaimItems item in claimsQueue)
+            {
+                Console.WriteLine($"Claim ID: {item.ClaimID}\n" +
+                    $"Claim Type: {item.ClaimType}\n" +
+                    $"Description: {item.Description}\n" +
+                    $"Claim Amount: {item.ClaimAmount}\n" +
+                    $"Date of Incident: {item.DateOfIncident}\n" +
+                    $"Date of Claim: {item.DateOfClaim}\n" +
+                    $"Is this claim valid: {item.IsValid}");
+            }
         }
 
         private void ProcessNextClaim()
         {
+            Console.Clear();
+            //Get Claim from top of the list using "Take Care of claim method"
+            //Display the claim
+            ClaimItems nextUpClaim = _claimsDepartmentRepository.TakeCareOfClaim();
+            Console.WriteLine($"Claim Type: {nextUpClaim.ClaimType}\n" +
+                $"Description: {nextUpClaim.Description}\n" +
+                $"Claim Amount: {nextUpClaim.ClaimAmount}" +
+                $"Date of Incident: {nextUpClaim.DateOfIncident}\n" +
+                $"Date of Claim: {nextUpClaim.DateOfClaim}\n" +
+                $"Is this Valid: {nextUpClaim.IsValid}\n");
+
+
+            //Ask user if they would like to process the claim
+            Console.WriteLine("Do you want to process this claim? (y/n)");
+
+            //Remove from top of the list if yes
+            string processClaimInput = Console.ReadLine();
+            if (processClaimInput == "y")
+            {
+                _claimsQueue.Dequeue();
+                Console.Clear();
+                ProcessNextClaim();
+            }
+            //Return to main menu if no
+            else
+            {
+                Console.Clear();
+                Menu();
+            }
+
 
         }
 
         private void EnterNewClaim()
         {
+            Console.Clear();
             ClaimItems newItem = new ClaimItems();
             //ClaimID
             Console.WriteLine("Enter the ID for the claim:");
@@ -104,6 +151,16 @@ namespace ClaimsDepartment_Console
                 newItem.IsValid = false;
             }
             _claimsDepartmentRepository.AddClaimToQueue(newItem);
+        }
+
+        private void LocalData()
+        {
+            ClaimItems itemOne = new ClaimItems(1, TypeOfClaim.Car, "Car accident on 465", 400.00, DateTime.Parse("04/25/20"), DateTime.Parse("04 / 27 / 20"), true);
+            ClaimItems itemTwo = new ClaimItems(2, TypeOfClaim.Home, "House fire in kitchen", 4000.00, DateTime.Parse("4/11/20"), DateTime.Parse("04/12/20"), true);
+            ClaimItems itemThree = new ClaimItems(3, TypeOfClaim.Theft, "Stolen Pancakes", 4.00, DateTime.Parse("4/27/20"), DateTime.Parse("06/01/20"), false);
+            _claimsDepartmentRepository.AddClaimToQueue(itemOne);
+            _claimsDepartmentRepository.AddClaimToQueue(itemTwo);
+            _claimsDepartmentRepository.AddClaimToQueue(itemThree);
         }
 
     }

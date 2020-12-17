@@ -11,7 +11,7 @@ namespace CafeMenu_Console
         static void Main(string[] args)
         {
             KomodoUI program = new KomodoUI();
-            program.run();
+            program.Run();
         }
 
     }

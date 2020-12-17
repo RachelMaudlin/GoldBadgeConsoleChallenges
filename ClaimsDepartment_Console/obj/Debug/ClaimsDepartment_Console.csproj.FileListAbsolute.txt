@@ -1,0 +1,10 @@
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Console\obj\Debug\ClaimsDepartment_Console.csproj.CoreCompileInputs.cache
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Console\bin\Debug\ClaimsDepartment_Console.exe.config
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Console\bin\Debug\ClaimsDepartment_Console.exe
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Console\bin\Debug\ClaimsDepartment_Console.pdb
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Console\bin\Debug\ClaimsDepartment_Repository.dll
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Console\bin\Debug\ClaimsDepartment_Repository.pdb
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Console\obj\Debug\ClaimsDepartment_Console.csprojAssemblyReference.cache
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Console\obj\Debug\ClaimsDepartment_Console.csproj.CopyComplete
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Console\obj\Debug\ClaimsDepartment_Console.exe
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Console\obj\Debug\ClaimsDepartment_Console.pdb
