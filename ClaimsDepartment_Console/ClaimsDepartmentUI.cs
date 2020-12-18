@@ -11,7 +11,6 @@ namespace ClaimsDepartment_Console
     {
         private ClaimsDepartmentRepository _claimsDepartmentRepository = new ClaimsDepartmentRepository();
         
-
         public void Run()
         {
             LocalData();
@@ -78,8 +77,7 @@ namespace ClaimsDepartment_Console
         private void ProcessNextClaim()
         {
             Console.Clear();
-            //Get Claim from top of the list using "Take Care of claim method"
-            //Display the claim
+            //Get Claim from top of the list 
             ClaimItems nextUpClaim = _claimsDepartmentRepository.TakeCareOfClaim();
             Console.WriteLine($"Claim Type: {nextUpClaim.ClaimType}\n" +
                 $"Description: {nextUpClaim.Description}\n" +
@@ -87,7 +85,6 @@ namespace ClaimsDepartment_Console
                 $"Date of Incident: {nextUpClaim.DateOfIncident}\n" +
                 $"Date of Claim: {nextUpClaim.DateOfClaim}\n" +
                 $"Is this Valid: {nextUpClaim.IsValid}\n");
-
 
             //Ask user if they would like to process the claim
             Console.WriteLine("Do you want to process this claim? (y/n)");
@@ -106,8 +103,6 @@ namespace ClaimsDepartment_Console
                 Console.Clear();
                 Menu();
             }
-
-
         }
 
         private void EnterNewClaim()

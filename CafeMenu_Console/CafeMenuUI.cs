@@ -22,7 +22,6 @@ namespace CafeMenu_Console
             bool keepRunning = true;
             while (keepRunning)
             {
-
                 //DISPLAY OPTIONS
                 Console.WriteLine("Select Menu Option:\n" +
                     "1. View All Menu Items\n" +
@@ -33,7 +32,6 @@ namespace CafeMenu_Console
 
                 //GET USER INPUT
                 string userInput = Console.ReadLine();
-
 
                 //EVALUATE USER INPUT
                 switch (userInput)
@@ -182,7 +180,6 @@ namespace CafeMenu_Console
             _cafeMenuRepo.AddItemToMenu(itemFour);
             _cafeMenuRepo.AddItemToMenu(itemFive);
             _cafeMenuRepo.AddItemToMenu(itemSix);
-
         }
     }
 }

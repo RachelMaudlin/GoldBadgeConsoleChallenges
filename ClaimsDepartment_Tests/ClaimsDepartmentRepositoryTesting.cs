@@ -34,7 +34,6 @@ namespace ClaimsDepartment_Tests
             ClaimItems item = new ClaimItems();
             item.ClaimID = 1;
             ClaimsDepartmentRepository repository = new ClaimsDepartmentRepository();
-
             repository.AddClaimToQueue(item);
             ClaimItems itemsFromQueue = repository.TakeCareOfClaim();
             Assert.IsNotNull(itemsFromQueue);
@@ -47,7 +46,6 @@ namespace ClaimsDepartment_Tests
             ClaimItems item = new ClaimItems();
             item.ClaimID = 1;
             ClaimsDepartmentRepository repository = new ClaimsDepartmentRepository();
-
             repository.AddClaimToQueue(item);
             ClaimItems itemsFromQueue = repository._ClaimsQueue.Peek();
             Assert.IsNotNull(itemsFromQueue);
