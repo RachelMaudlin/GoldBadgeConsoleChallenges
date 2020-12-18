@@ -1,0 +1,16 @@
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\bin\Debug\ClaimsDepartment_Tests.dll
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\bin\Debug\ClaimsDepartment_Tests.pdb
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\bin\Debug\ClaimsDepartment_Repository.dll
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\bin\Debug\ClaimsDepartment_Repository.pdb
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\obj\Debug\ClaimsDepartment_Tests.csprojAssemblyReference.cache
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\obj\Debug\ClaimsDepartment_Tests.csproj.CoreCompileInputs.cache
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\obj\Debug\ClaimsDepartment_Tests.csproj.CopyComplete
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\obj\Debug\ClaimsDepartment_Tests.dll
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\ClaimsDepartment_Tests\obj\Debug\ClaimsDepartment_Tests.pdb
