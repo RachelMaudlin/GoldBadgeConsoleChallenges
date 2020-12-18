@@ -104,7 +104,9 @@ namespace EmployeeBadge_Console
             string userInputAsString = Console.ReadLine();
             if (userInputAsString == "1")
             {
-                _employeeBadgeRepo.AddDoorToExistingBadge();
+                Console.WriteLine("Enter the name of the door you would like to add:");
+                string doorName = Console.ReadLine();
+                _employeeBadgeRepo.AddDoorToExistingBadge(badgeID, doorName);
             }
             if(userInputAsString == "2")
             {
