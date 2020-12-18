@@ -68,7 +68,7 @@ namespace EmployeeBadge_Console
             Console.WriteLine("List a door that it needs access to:");
             newBadge.ListOfDoors.Add(Console.ReadLine());
             Console.WriteLine("Any other doors? (y/n)");
-            string userInput = Console.ReadLine();
+            string userInput = Console.ReadLine().ToLower();
             if(userInput == "y")
             {
                 Console.WriteLine("List a door that it needs access to:");
@@ -126,14 +126,15 @@ namespace EmployeeBadge_Console
         {
             Console.Clear();
             Dictionary<int, EmployeeBadge> badgeDictionary = _employeeBadgeRepo.GetEmployeeDictionary();
+            Console.WriteLine("Badge ID:\tDoor Access:");
             foreach(KeyValuePair<int, EmployeeBadge> badge in badgeDictionary)
             {
-                Console.WriteLine($"- Badge ID: {badge.Value.BadgeID}\n");
+                Console.Write($"{badge.Value.BadgeID, -17}");
                 foreach (var item in badge.Value.ListOfDoors)
                 {
-                    Console.WriteLine($" - Door Access: {item}\n");
+                    Console.Write($"{item}");
                 }
-                   
+                Console.WriteLine();    
             }
         }
 
