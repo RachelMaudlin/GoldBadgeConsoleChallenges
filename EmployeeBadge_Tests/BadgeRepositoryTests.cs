@@ -39,8 +39,8 @@ namespace EmployeeBadge_Tests
         [TestMethod]
         public void ShowListOfItems_NoNullAllowed()
         {
-            Dictionary<int, EmployeeBadge> keyValuePairs = _repo.GetEmployeeDictionary();
-            Assert.IsNotNull(keyValuePairs);
+            Dictionary<int, EmployeeBadge> wholeList = _repo.GetEmployeeDictionary();
+            Assert.IsNotNull(wholeList);
         }
 
         //ADD ACCES TO DOOR

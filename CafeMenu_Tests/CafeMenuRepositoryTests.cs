@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using CafeMenu_Repository;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -68,6 +69,14 @@ namespace CafeMenu_Tests
             bool deleteResult = _repo.RemoveItemFromMenu(_item.MealNumber);
             //ASSERT
             Assert.IsTrue(deleteResult);
+        }
+        //READ
+        [TestMethod]
+        public void ShowAllItemsOnMenu_NoNullAllowed()
+        {
+            List<CafeMenu> wholeMenu = _repo.GetCafeMenu();
+            Assert.IsNotNull(wholeMenu);
+
         }
     }
 }
