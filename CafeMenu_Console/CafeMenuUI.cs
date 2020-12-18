@@ -10,7 +10,7 @@ namespace CafeMenu_Console
     class KomodoUI
     {
         private CafeMenuRepository _cafeMenuRepo = new CafeMenuRepository();
-        public void run()
+        public void Run()
         {
             LocalDataBase();
             MainMenu();

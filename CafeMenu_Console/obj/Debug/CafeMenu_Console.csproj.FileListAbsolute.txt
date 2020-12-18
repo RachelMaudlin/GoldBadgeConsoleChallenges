@@ -1,0 +1,10 @@
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\CafeMenu_Console\obj\Debug\CafeMenu_Console.csprojAssemblyReference.cache
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\CafeMenu_Console\obj\Debug\CafeMenu_Console.csproj.CoreCompileInputs.cache
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\CafeMenu_Console\bin\Debug\CafeMenu_Console.exe.config
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\CafeMenu_Console\bin\Debug\CafeMenu_Console.exe
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\CafeMenu_Console\bin\Debug\CafeMenu_Console.pdb
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\CafeMenu_Console\bin\Debug\CafeMenu_Repository.dll
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\CafeMenu_Console\bin\Debug\CafeMenu_Repository.pdb
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\CafeMenu_Console\obj\Debug\CafeMenu_Console.csproj.CopyComplete
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\CafeMenu_Console\obj\Debug\CafeMenu_Console.exe
+C:\Users\rachel.maudlin\source\repos\GoldBadgeConsoleChallenges\CafeMenu_Console\obj\Debug\CafeMenu_Console.pdb

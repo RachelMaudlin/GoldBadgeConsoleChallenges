@@ -8,23 +8,50 @@ namespace EmployeeBadge_Repository
 {
     public class EmployeeBadgeRepository
     {
-        public Dictionary<int, EmployeeBadge> _employeeBadgeDictionary = new Dictionary<int, EmployeeBadge>();
+        private Dictionary<int, EmployeeBadge> _employeeBadgeDictionary = new Dictionary<int, EmployeeBadge>();
         
         //CREATE NEW BADGE
         public void AddNewBadge(int key, EmployeeBadge badge)
         {
             _employeeBadgeDictionary.Add(key,badge);
         }
+
         //ADD DOOR TO EXISTING BADGE
-        public void AddDoorToExistingBadge()
+        public bool AddDoorToExistingBadge(int badgeID, string doorNames)
         {
-            
-        }
-        //DELETE DOORS FROM EXISTING BADGE
-        public void DeleteDoorFromExistingItem()
-        {
+            EmployeeBadge badgeToEdit = GetBadgeByID(badgeID);
+            if (badgeToEdit == null)
+            {
+                return false;
+            }
+            int initialCount = badgeToEdit.ListOfDoors.Count;
+            badgeToEdit.ListOfDoors.Add(doorNames);
+            int secondCount = badgeToEdit.ListOfDoors.Count;
+            if(initialCount < secondCount)
+            {
+                return true;
+            }
+            return false;
 
         }
+
+        //DELETE DOORS FROM EXISTING BADGE
+        public bool RemoveDoorFromExistingItem(int badgeID, string doorNames)
+        {
+            EmployeeBadge badgeToEdit = GetBadgeByID(badgeID);
+            if(badgeToEdit == null)
+            {
+                return false;
+            }
+            int initialCount = badgeToEdit.ListOfDoors.Count;
+            bool removed = badgeToEdit.ListOfDoors.Remove(doorNames);
+            if (removed)
+            {
+                return true;
+            }
+            return false;
+        }
+
         //SHOW A LIST OF ALL BADGES
         public Dictionary<int, EmployeeBadge> GetEmployeeDictionary()
         {
